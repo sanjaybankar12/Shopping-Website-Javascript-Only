@@ -1,0 +1,197 @@
+
+body
+{
+	background-color:#eee;
+	margin:0;
+	padding:0;
+}
+
+.container
+{
+	padding:0;
+}
+
+.main_head
+{
+		background-color:pink;
+		margin:0;
+
+}
+.main_head h3
+{
+		text-align:center;
+		font-family:verdana;
+		font-size:22px;
+		padding:10px;
+		margin:0;
+}
+
+#myNav
+{
+	text-align:center;
+}
+#myNav ul
+{
+	list-style-type:none;
+	display:inline-block;
+}
+
+#myNav ul li
+{
+	display:inline-block;	
+	text-decoration:none;
+}
+
+#myNav ul li a
+{
+		text-decoration:none;
+		color:#000;
+		font-size:18px;
+		font-weight:bold;
+		padding:5px;
+		border-radius:5px;
+		-moz-border-radius:5px;
+	
+}
+
+#myNav ul li a:hover
+{
+		text-decoration:underline;
+		color:royalblue;
+		font-size:18px;
+		font-weight:bold;
+		background-color:#fff;
+}
+
+#myNav ul .active a
+{
+	color:#fff;
+	background-color:royalblue;
+}
+#item_list
+{
+
+	margin:10px 20px 10px 20px;
+	
+}
+
+#main_item_container 
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	
+}
+
+#main_item_container li
+{
+	background-color:#fff;
+	width:20%;
+	float:left;
+	margin:5px;
+}
+
+#main_item_container .child_item_container
+{
+	list-style-type:none;
+	margin:0;
+	padding:10px;
+		
+}
+#main_item_container .child_item_container  .img
+{
+	width:90px;
+}
+#main_item_container .child_item_container  button
+{
+	background-color:green;
+	color:#fff;
+	font-weight:bold;
+	font-size:11px;
+	cursor:pointer;
+	width:90px;
+	padding:5px;
+	border-color:green;
+	cursor:pointer;
+	border-radius:5px;
+}
+#main_item_container .child_item_container  h4
+{
+	margin:0;
+}
+#main_item_container .child_item_container  .qty_val
+{
+	margin-left:10px;
+}
+#main_item_container .child_item_container li
+{
+	
+	display:inline-block;
+	width:45%;
+	
+}
+
+#view_item_container
+{
+	list-style-type:none;
+	background-color:#fff;
+	padding:1%;
+	width:60%;
+	float:left;
+}
+
+#view_item_container  h4
+{
+	margin:0;
+	font-family:verdana;
+	font-size:16px;
+
+}
+#view_item_container  p
+{
+	font-family:verdana;
+	font-size:12px;
+}
+#view_item_container li
+{
+	border-bottom:3px solid #ccc;
+	background-color:#eee;
+	margin:10px;
+	padding:10px;
+}
+
+#cart_total 
+{
+	width:30%;
+	margin-top:16px;
+	float:left;
+	margin-left:25px;
+	background-color:#fff;
+
+}
+
+#cart_total ul
+{
+	list-style-type:none;
+	padding:10px;
+	background-color:#eee;
+	
+	margin:20px;
+}
+
+#cart_total ul li
+{
+	border-bottom:3px solid #ccc;
+	padding:10px;
+}
+
+#cart_total ul li button
+{
+	background-color:green;
+	color:#fff;
+	font-weight:bold;
+	padding:8px;
+	border-color:green;
+	cursor:pointer;
+	border-radius:5px;
+}

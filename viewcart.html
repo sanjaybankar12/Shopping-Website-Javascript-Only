@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Shopping Home</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="css/home.css" type="text/css">
+		<script type="text/javascript" src="controller/cart.js"></script>
+	</head>
+		
+	<body style="margin:0;padding:0;">
+		<div class="container">
+			<header class="main_head">
+				<h3>
+					Shopping Site Home
+				</h3>
+				<nav id="myNav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li class="active"><a href="index.html">ViewCart</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section id="item_list">
+				<ul id="view_item_container">
+					<!--<li>
+						<h4>T-Shirt</h4>
+						<p>Prize : 250 Rs</p>
+						<p>Qty : 1</p>
+					</li>	-->				
+				</ul>
+				<div id="cart_total">
+					<ul>
+						<li>							
+							<strong><span>Total : </span><span id="tot_cost" style="float:right;"></span></strong>
+						</li>
+						<li>							
+							<span>Subtotal : </span><span style="float:right;" id="real_cost"></span><br/>
+							<span>Shipping : </span><span style="float:right;">100 Rs</span>
+						</li>
+						<li>							
+							<strong><span>Total Amount : </span><span id="tot_cost_last" style="float:right;"></span></strong>
+						</li>
+						<li style="text-align:center;">							
+							<strong><button type="button" onclick="payment()">Proceed For Payment</button></strong>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+		
+		<script type="text/javascript">
+			viewCart();
+		</script>
+	</body>
+</html>
